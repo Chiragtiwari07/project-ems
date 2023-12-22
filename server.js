@@ -14,7 +14,7 @@ app.use(cors());
 app.use("/public/images", express.static("public/images"));
 
 
-
+// chirag
 const db = mysql.createConnection({
     host: "localhost",
     user: "root",
